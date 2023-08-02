@@ -1,0 +1,24 @@
+LEVEL 1:
+1.What is Cairo designed for, and what makes its processor unique?
+Cairo is a virtual programming language designed for a virtual CPU called Cairo. Cairo is unique in the sense that the processor was not created for the physical constraints of our world, but for cryptographic ones, making it capable of efficiently proving the execution of any programs running it.
+
+2.How does Cairo's virtual CPU handle cryptographic constraints, and what advantage does this offer?
+The processor performs time consuming operations on a machine you dont trust, and check the result very quickly on a cheaper machine
+
+LEVEL2:
+1.What is Starknet, and what technologies does it leverage for scalability, privacy, and security?
+Starknet is a permissionless network that leverages the power of zk-STARKs technology for scalability, privacy and security.
+
+2.How does Starknet function as a Layer-2 scalability solution for Ethereum, and what cryptographic systems does it use to reduce computation costs?
+It is a scalability solution for ethereum as it offers faster, secure and low transaction costs. It functions as a Validity Rollup(commonly known as zero-knowledge Rollup) that uses cryptographic systems called STARKs to reduce computation costs.
+
+LEVEL 3:
+1.What is Starkware, and what has been its key innovations in the blockchain industry?
+Starkware is a technology company in the blockchain industry that focuses on developing and deploying zk-STARK technology. Its first key innovation was StarkEX, which, based on a Software as as Service(SaaS) business model, has become one of the most significant Layer 2 solutions in production on Ethereum.
+Its second contribution is Cairo, a programming language optimized for writing STARK proofs, enabling scalable computation for decentralized applications.
+The latest achievement has been Starknet, a permissionless, decentralized network governed by the Starknet Foundation.
+
+2.How does StarkEx leverage STARK proofs to ensure the validity of large batches of transactions off-chain with a minimal on-chain footprint?
+The off-chain Prover processes large batches of transactions and generates a STARK proof. 
+The on-chain Verifier checks the STARK proof in a few computational steps. 
+This enables massive scaling off-chain, where we process large computations whose integrity is then enforced on-chain with minimal computation.
